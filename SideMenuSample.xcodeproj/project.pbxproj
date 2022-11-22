@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FBB5D7A78CE9737C46764EE /* Pods_SideMenuSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BB50D9D918B1C7FA66D3CD /* Pods_SideMenuSample.framework */; };
+		6A775C431829FAB71DC5B5DF /* Pods_SideMenuSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C216AB7FF1ED8058BB73DB10 /* Pods_SideMenuSampleTests.framework */; };
+		F7C3A3F46F5708270C673C9F /* Pods_SideMenuSample_SideMenuSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400324A059B1F1894C20BB86 /* Pods_SideMenuSample_SideMenuSampleUITests.framework */; };
 		FBEA5CE8292B820F00140B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5CE7292B820F00140B94 /* AppDelegate.swift */; };
 		FBEA5CEA292B820F00140B94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5CE9292B820F00140B94 /* SceneDelegate.swift */; };
 		FBEA5CEC292B820F00140B94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5CEB292B820F00140B94 /* ViewController.swift */; };
@@ -17,6 +20,13 @@
 		FBEA5D02292B821400140B94 /* SideMenuSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D01292B821400140B94 /* SideMenuSampleTests.swift */; };
 		FBEA5D0C292B821500140B94 /* SideMenuSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D0B292B821500140B94 /* SideMenuSampleUITests.swift */; };
 		FBEA5D0E292B821500140B94 /* SideMenuSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D0D292B821500140B94 /* SideMenuSampleUITestsLaunchTests.swift */; };
+		FBEA5D1B292B824600140B94 /* settingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D1A292B824600140B94 /* settingsData.swift */; };
+		FBEA5D1D292B82B500140B94 /* SideMenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D1C292B82B500140B94 /* SideMenuInteractor.swift */; };
+		FBEA5D1F292B82BD00140B94 /* SideMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D1E292B82BD00140B94 /* SideMenuPresenter.swift */; };
+		FBEA5D21292B82C800140B94 /* sideMenuProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D20292B82C800140B94 /* sideMenuProtocols.swift */; };
+		FBEA5D23292B82FC00140B94 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D22292B82FB00140B94 /* SideMenuTableViewCell.swift */; };
+		FBEA5D25292B830100140B94 /* SidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D24292B830100140B94 /* SidemenuViewController.swift */; };
+		FBEA5D29292B91D900140B94 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEA5D27292B91D900140B94 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041D792CD5211C1FC14557DB /* Pods-SideMenuSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuSample.debug.xcconfig"; path = "Target Support Files/Pods-SideMenuSample/Pods-SideMenuSample.debug.xcconfig"; sourceTree = "<group>"; };
+		16C50B4BA1446F7D1F003486 /* Pods-SideMenuSample-SideMenuSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuSample-SideMenuSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-SideMenuSample-SideMenuSampleUITests/Pods-SideMenuSample-SideMenuSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		400324A059B1F1894C20BB86 /* Pods_SideMenuSample_SideMenuSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideMenuSample_SideMenuSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDFF7F03FC13B12184BD0F4 /* Pods-SideMenuSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuSampleTests.release.xcconfig"; path = "Target Support Files/Pods-SideMenuSampleTests/Pods-SideMenuSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0361F7E375DD513CD3F443A /* Pods-SideMenuSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-SideMenuSampleTests/Pods-SideMenuSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8F039C0F91D7A881194A5C0 /* Pods-SideMenuSample-SideMenuSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuSample-SideMenuSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-SideMenuSample-SideMenuSampleUITests/Pods-SideMenuSample-SideMenuSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BADB7C52A51E6179FBA84A68 /* Pods-SideMenuSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuSample.release.xcconfig"; path = "Target Support Files/Pods-SideMenuSample/Pods-SideMenuSample.release.xcconfig"; sourceTree = "<group>"; };
+		C216AB7FF1ED8058BB73DB10 /* Pods_SideMenuSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideMenuSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BB50D9D918B1C7FA66D3CD /* Pods_SideMenuSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideMenuSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEA5CE4292B820F00140B94 /* SideMenuSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenuSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEA5CE7292B820F00140B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEA5CE9292B820F00140B94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +70,15 @@
 		FBEA5D07292B821500140B94 /* SideMenuSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEA5D0B292B821500140B94 /* SideMenuSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuSampleUITests.swift; sourceTree = "<group>"; };
 		FBEA5D0D292B821500140B94 /* SideMenuSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBEA5D1A292B824600140B94 /* settingsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsData.swift; sourceTree = "<group>"; };
+		FBEA5D1C292B82B500140B94 /* SideMenuInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuInteractor.swift; sourceTree = "<group>"; };
+		FBEA5D1E292B82BD00140B94 /* SideMenuPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuPresenter.swift; sourceTree = "<group>"; };
+		FBEA5D20292B82C800140B94 /* sideMenuProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideMenuProtocols.swift; sourceTree = "<group>"; };
+		FBEA5D22292B82FB00140B94 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		FBEA5D24292B830100140B94 /* SidemenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuViewController.swift; sourceTree = "<group>"; };
+		FBEA5D26292B91D800140B94 /* SideMenuSampleUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideMenuSampleUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		FBEA5D27292B91D900140B94 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FBEA5D28292B91D900140B94 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FBB5D7A78CE9737C46764EE /* Pods_SideMenuSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A775C431829FAB71DC5B5DF /* Pods_SideMenuSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C3A3F46F5708270C673C9F /* Pods_SideMenuSample_SideMenuSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AB79B70E21BC169247A9A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				041D792CD5211C1FC14557DB /* Pods-SideMenuSample.debug.xcconfig */,
+				BADB7C52A51E6179FBA84A68 /* Pods-SideMenuSample.release.xcconfig */,
+				16C50B4BA1446F7D1F003486 /* Pods-SideMenuSample-SideMenuSampleUITests.debug.xcconfig */,
+				A8F039C0F91D7A881194A5C0 /* Pods-SideMenuSample-SideMenuSampleUITests.release.xcconfig */,
+				A0361F7E375DD513CD3F443A /* Pods-SideMenuSampleTests.debug.xcconfig */,
+				7BDFF7F03FC13B12184BD0F4 /* Pods-SideMenuSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA3373B6FD179153C0D8F60B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB50D9D918B1C7FA66D3CD /* Pods_SideMenuSample.framework */,
+				400324A059B1F1894C20BB86 /* Pods_SideMenuSample_SideMenuSampleUITests.framework */,
+				C216AB7FF1ED8058BB73DB10 /* Pods_SideMenuSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBEA5CDB292B820F00140B94 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +140,8 @@
 				FBEA5D00292B821400140B94 /* SideMenuSampleTests */,
 				FBEA5D0A292B821500140B94 /* SideMenuSampleUITests */,
 				FBEA5CE5292B820F00140B94 /* Products */,
+				7AB79B70E21BC169247A9A22 /* Pods */,
+				CA3373B6FD179153C0D8F60B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				FBEA5CE7292B820F00140B94 /* AppDelegate.swift */,
+				FBEA5D1A292B824600140B94 /* settingsData.swift */,
 				FBEA5CE9292B820F00140B94 /* SceneDelegate.swift */,
 				FBEA5CEB292B820F00140B94 /* ViewController.swift */,
 				FBEA5CED292B820F00140B94 /* Main.storyboard */,
@@ -116,7 +174,12 @@
 		FBEA5D00292B821400140B94 /* SideMenuSampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				FBEA5D1C292B82B500140B94 /* SideMenuInteractor.swift */,
 				FBEA5D01292B821400140B94 /* SideMenuSampleTests.swift */,
+				FBEA5D20292B82C800140B94 /* sideMenuProtocols.swift */,
+				FBEA5D1E292B82BD00140B94 /* SideMenuPresenter.swift */,
+				FBEA5D22292B82FB00140B94 /* SideMenuTableViewCell.swift */,
+				FBEA5D24292B830100140B94 /* SidemenuViewController.swift */,
 			);
 			path = SideMenuSampleTests;
 			sourceTree = "<group>";
@@ -126,6 +189,9 @@
 			children = (
 				FBEA5D0B292B821500140B94 /* SideMenuSampleUITests.swift */,
 				FBEA5D0D292B821500140B94 /* SideMenuSampleUITestsLaunchTests.swift */,
+				FBEA5D28292B91D900140B94 /* SWRevealViewController.h */,
+				FBEA5D27292B91D900140B94 /* SWRevealViewController.m */,
+				FBEA5D26292B91D800140B94 /* SideMenuSampleUITests-Bridging-Header.h */,
 			);
 			path = SideMenuSampleUITests;
 			sourceTree = "<group>";
@@ -137,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEA5D11292B821500140B94 /* Build configuration list for PBXNativeTarget "SideMenuSample" */;
 			buildPhases = (
+				35D579132607A90F3CE89528 /* [CP] Check Pods Manifest.lock */,
 				FBEA5CE0292B820F00140B94 /* Sources */,
 				FBEA5CE1292B820F00140B94 /* Frameworks */,
 				FBEA5CE2292B820F00140B94 /* Resources */,
+				2B4570402705B0BABA52B84F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEA5D14292B821500140B94 /* Build configuration list for PBXNativeTarget "SideMenuSampleTests" */;
 			buildPhases = (
+				92D6AC818882141ED8C4AFCE /* [CP] Check Pods Manifest.lock */,
 				FBEA5CF9292B821400140B94 /* Sources */,
 				FBEA5CFA292B821400140B94 /* Frameworks */,
 				FBEA5CFB292B821400140B94 /* Resources */,
@@ -172,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEA5D17292B821500140B94 /* Build configuration list for PBXNativeTarget "SideMenuSampleUITests" */;
 			buildPhases = (
+				C793773284F56948186A2E3F /* [CP] Check Pods Manifest.lock */,
 				FBEA5D03292B821500140B94 /* Sources */,
 				FBEA5D04292B821500140B94 /* Frameworks */,
 				FBEA5D05292B821500140B94 /* Resources */,
+				D23C17CB972D2ED2A27624E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +276,7 @@
 					};
 					FBEA5D06292B821500140B94 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 						TestTargetID = FBEA5CE3292B820F00140B94;
 					};
 				};
@@ -256,6 +328,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B4570402705B0BABA52B84F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SideMenuSample/Pods-SideMenuSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SideMenuSample/Pods-SideMenuSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SideMenuSample/Pods-SideMenuSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35D579132607A90F3CE89528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideMenuSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D6AC818882141ED8C4AFCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideMenuSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C793773284F56948186A2E3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideMenuSample-SideMenuSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23C17CB972D2ED2A27624E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SideMenuSample-SideMenuSampleUITests/Pods-SideMenuSample-SideMenuSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SideMenuSample-SideMenuSampleUITests/Pods-SideMenuSample-SideMenuSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SideMenuSample-SideMenuSampleUITests/Pods-SideMenuSample-SideMenuSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBEA5CE0292B820F00140B94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,6 +438,7 @@
 			files = (
 				FBEA5CEC292B820F00140B94 /* ViewController.swift in Sources */,
 				FBEA5CE8292B820F00140B94 /* AppDelegate.swift in Sources */,
+				FBEA5D1B292B824600140B94 /* settingsData.swift in Sources */,
 				FBEA5CEA292B820F00140B94 /* SceneDelegate.swift in Sources */,
 				FBEA5CF2292B820F00140B94 /* SideMenuSample.xcdatamodeld in Sources */,
 			);
@@ -272,6 +448,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEA5D23292B82FC00140B94 /* SideMenuTableViewCell.swift in Sources */,
+				FBEA5D1F292B82BD00140B94 /* SideMenuPresenter.swift in Sources */,
+				FBEA5D25292B830100140B94 /* SidemenuViewController.swift in Sources */,
+				FBEA5D21292B82C800140B94 /* sideMenuProtocols.swift in Sources */,
+				FBEA5D1D292B82B500140B94 /* SideMenuInteractor.swift in Sources */,
 				FBEA5D02292B821400140B94 /* SideMenuSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +463,7 @@
 			files = (
 				FBEA5D0E292B821500140B94 /* SideMenuSampleUITestsLaunchTests.swift in Sources */,
 				FBEA5D0C292B821500140B94 /* SideMenuSampleUITests.swift in Sources */,
+				FBEA5D29292B91D900140B94 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +618,7 @@
 		};
 		FBEA5D12292B821500140B94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041D792CD5211C1FC14557DB /* Pods-SideMenuSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +647,7 @@
 		};
 		FBEA5D13292B821500140B94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADB7C52A51E6179FBA84A68 /* Pods-SideMenuSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +676,7 @@
 		};
 		FBEA5D15292B821500140B94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0361F7E375DD513CD3F443A /* Pods-SideMenuSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +697,7 @@
 		};
 		FBEA5D16292B821500140B94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDFF7F03FC13B12184BD0F4 /* Pods-SideMenuSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,16 +718,25 @@
 		};
 		FBEA5D18292B821500140B94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C50B4BA1446F7D1F003486 /* Pods-SideMenuSample-SideMenuSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44473R22KT;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vedas.SideMenuSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenuSampleUITests/SideMenuSampleUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SideMenuSample;
@@ -550,16 +745,24 @@
 		};
 		FBEA5D19292B821500140B94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F039C0F91D7A881194A5C0 /* Pods-SideMenuSample-SideMenuSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44473R22KT;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vedas.SideMenuSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenuSampleUITests/SideMenuSampleUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SideMenuSample;
